@@ -1,5 +1,8 @@
 # quick and dirty FreeDOS shell for Windows
 
+steps:
+* download and unzip [zip](https://github.com/sirredbeard/ThinkDOS/archive/master.zip)
+
 made from:
 * https://www.lazybrowndog.net/freedos/virtualbox/?page_id=21
 * https://qemu.weilnetz.de/w64/
