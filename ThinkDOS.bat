@@ -1,0 +1,1 @@
+qemu\qemu-system-x86_64.exe -hda FreeDOS1.2.vhd -m 64M -net user
