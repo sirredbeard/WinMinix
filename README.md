@@ -14,7 +14,7 @@ to-do:
 * wrap qemu for windows and the custom build together in a pretty electron app
 * make arm64 version
 
-additional packages:
+additional packages to include in custom build:
 * [coreutils](https://github.com/ercanersoy/DOS-Coreutils)
 * [TinyBASIC-C](https://github.com/Luiji/TinyBASIC-C)
 * [FreeDOS-TUI-Shell](https://github.com/ercanersoy/FreeDOS-TUI-Shell)
