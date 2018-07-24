@@ -21,11 +21,13 @@ Archived Releases: [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.
     * Follow the prompts and you can usually accept all defaults unless you have made specific customizations
     * Back at shell, type shutdown -h now, and close window when indicates it is safe to do so.
 * Run WinMINIX.bat to boot freshly installed MINIX.
-    * Use WinMinix-X11.bat with settings optimized for X11, but creates an additional window.
-    * Use WinMinix-sshd.bat to launch a headless MINIX instance ssh pass-through via localhost:2200. Note: sshd must be properly configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku.php?id=usersguide:settingupssh).
 * Consult [post installation documentation](https://wiki.minix3.org/doku.php?id=usersguide:postinstallation) for MINIX, including installing binary packages using [pkgin](https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages) or from source using NetBSD's [pkgsrc](https://wiki.minix3.org/doku.php?id=usersguide:installingsourcepackages) repo.
 
 **Hacking this project:**
+* See the "Examples" folder:
+   * Use WinMinix-X11.bat with settings optimized for X11, but note it creates an additional window.
+   * Use WinMinix-sshd.bat to launch a headless MINIX instance ssh pass-through via localhost:2200. Note: sshd must be properly 
+configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku.php?id=usersguide:settingupssh).
 * Optimize QEMU for your particular hardware by tweaking command-line settings in WinMINIX.bat.
 * Fork this project and replace MINIX with another obscure operating system.
 * Add a reliable way to perform SHA1 verification on downloads.
@@ -43,7 +45,9 @@ Archived Releases: [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.
 * [7-Zip](https://www.7-zip.org/faq.html) is licensed under the LGPL license.
 * This project is licensed under the GPL2 license.
 
-Written using Notepad and Visual Studio Code on Windows 10 Pro.
+Written using Microsoft Notepad and Visual Studio Code on Windows 10 Pro.
+
+WinMinix is a fork and continuation of my earlier [ThinkDOS](https://github.com/sirredbeard/ThinkDOS) project, a one-click FreeDOS shell for Windows.
 
 **Other projects:**
 * [Awesome UNIX](https://github.com/sirredbeard/Awesome-UNIX)
