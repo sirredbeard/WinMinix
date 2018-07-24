@@ -9,7 +9,7 @@ WinMinix makes setting up, experimenting, and developing on MINIX from Windows e
 **Downloads**
 
 **[Nightly](https://github.com/sirredbeard/WinMinix/archive/master.zip)** (Recommended) <br>
-Archived Releases: [0.2](https://github.com/sirredbeard/WinMinix/releases/tag/0.2), [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.1)
+Archived Releases: [0.3](https://github.com/sirredbeard/WinMinix/releases/tag/0.3), [0.2](https://github.com/sirredbeard/WinMinix/releases/tag/0.2), [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.1)
 
 **Installation steps:**
 * Download and unzip a [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) archive of this git repo.
@@ -39,13 +39,6 @@ configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku
 * [QEMU 3.0.0-rc1](https://qemu.weilnetz.de/w64/)
 * [wget 1.19.4](https://eternallybored.org/misc/wget/)
 * [7-zip 18.05](https://www.7-zip.org/)
-
-**Licenses:**
-* [QEMU](https://wiki.qemu.org/License) is licensed under the GPL2 license.
-* [wget](https://www.gnu.org/software/wget/) is licensed under the GPL3 license.
-* [MINIX](https://github.com/minix3/minix/blob/master/LICENSE) is licensed under the BSD license.
-* [7-Zip](https://www.7-zip.org/faq.html) is licensed under the LGPL license.
-* This project is licensed under the GPL2 license.
 
 Written using Microsoft Notepad and Visual Studio Code on Windows 10 Pro.
 
