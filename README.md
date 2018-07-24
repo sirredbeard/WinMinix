@@ -6,8 +6,13 @@ MINIX 3 is a UNIX-like operating system created with the goal of being a highly 
 
 WinMinix makes setting up, experimenting, and developing on MINIX from Windows easy.
 
+**Downloads**
+
+**[Nightly](https://github.com/sirredbeard/WinMinix/archive/master.zip)** (Recommended) <br>
+Archived Releases: [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.1)
+
 **Installation steps:**
-* Download and unzip [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) of this git repo.
+* Download and unzip a [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) archive of this git repo.
 * Run GetMINIX.bat to download MINIX iso.
 * Run InstallMINIX.bat install MINIX to built-in virtual hard-drive
     * Select option 1 in the boot menu
