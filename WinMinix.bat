@@ -1,1 +1,1 @@
-qemu\qemu-system-x86_64.exe -hda mydisk.img -cdrom minix_R3.4.0rc6.iso -m 1024M -net user -boot a -display curses
+qemu\qemu-system-x86_64.exe -hda mydisk.img -cdrom minix_R3.4.0rc6.iso -m 1024M -net user -net nic -boot a -display curses
