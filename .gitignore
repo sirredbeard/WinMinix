@@ -1,3 +1,6 @@
 *.iso
 *.bz2
 *.img
+.desktop
+desktop.ini
+.ds_store
