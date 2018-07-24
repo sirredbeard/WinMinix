@@ -1,4 +1,4 @@
-# Quick and dirty MINIX shell for Windows.
+# A MINIX environment for Windows based on QEMU.
 
 Steps:
 * Download and unzip [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) of this git repo.
