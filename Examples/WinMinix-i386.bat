@@ -1,1 +1,1 @@
-Dependencies\qemu\qemu-system-x86_64w.exe -hda mydisk.img -cdrom minix_R3.4.0rc6.iso -m 1024M -net user -net nic -boot a -display curses -name MINIX
+Dependencies\qemu\qemu-system-i386.exe -hda mydisk.img -cdrom minix_R3.4.0rc6.iso -m 1024M -net user -net nic -boot a -display curses -name MINIX -cpu qemu32

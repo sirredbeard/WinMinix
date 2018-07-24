@@ -2,9 +2,9 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Rocky_Raccoon_mascot_of_MINIX_3.jpg" height=75 width=95>
 
-MINIX 3 is a UNIX-like operating system created with the goal of being a highly reliable and self-healing microkernel OS. MINIX 3 includes ssh, emacs, vi, perl, python, bash, X11, ftp, pine, clang, and gnu tools. Updated binary and source application packages are available for MINIX 3. MINIX 3 is available under a BSD license and supports many programming languages.
+MINIX 3 is a UNIX-like operating system created with the goal of being a highly reliable and self-healing microkernel OS. MINIX has gained prominence as an OS for internet-of-things devices and now supports ARM. The MINIX 3 shell includes ssh, emacs, vi, perl, python, bash, X11, ftp, pine, clang, gcc, and many other utilities common to Linux, BSD, Solaris, and UNIXes. Updated binary and source application packages are generally available for MINIX 3 to extend functionality. MINIX 3 is available under a BSD license and supports many programming languages and development tools.
 
-WinMinix makes setting up, experimenting, and developing on MINIX from Windows easy.
+WinMinix makes setting up, experimenting, and developing on MINIX from Windows easy by bundling all initial dependencies with a set of batch scripts to automate the process. After about three clicks and accepting the defaults most users will be left with a networked MINIX console in Windows ready to install packages or build code from source, including a rudimentary X11 desktop.
 
 **Downloads**
 
