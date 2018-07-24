@@ -1,6 +1,10 @@
 # A MINIX environment for Windows based on QEMU.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Rocky_Raccoon_mascot_of_MINIX_3.jpg" height=75 width=95>
+
 MINIX 3 is a UNIX-like operating system created with the goal of being a highly reliable and self-healing microkernel OS. MINIX 3 includes ssh, emacs, vi, perl, python, bash, X11, ftp, pine, clang, and gcc tools. Updated binary and source packages are available for MINIX 3. MINIX 3 is available under a BSD license and supports many programming languages and development tools.
+
+WinMinix makes setting up, experimenting, and developing on MINIX from Windows easy.
 
 **Installation steps:**
 * Download and unzip [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) of this git repo.
