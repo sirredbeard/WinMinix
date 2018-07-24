@@ -12,7 +12,8 @@ MINIX 3 is a UNIX-like operating system created with the goal of being a highly 
     * Follow the prompts and you can usually accept all defaults unless you have made specific customizations
     * Back at shell, type shutdown -h now, and close window when indicates it is safe to do so.
 * Run WinMINIX.bat to boot freshly installed MINIX.
-    * Use WinMINIX-X11.bat with settings optimized for X11, but creates an additional window.
+    * Use WinMinix-X11.bat with settings optimized for X11, but creates an additional window.
+    * Use WinMinix-sshd.bat to launch a headless MINIX instance ssh pass-through via localhost:2200. Note: sshd must be properly configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku.php?id=usersguide:settingupssh).
 * Consult [post installation documentation](https://wiki.minix3.org/doku.php?id=usersguide:postinstallation) for MINIX, including installing binary packages using [pkgin](https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages) or from source using NetBSD's [pkgsrc](https://wiki.minix3.org/doku.php?id=usersguide:installingsourcepackages) repo.
 
 **Hacking this project:**
