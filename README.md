@@ -1,14 +1,8 @@
 # A MINIX environment for Windows based on QEMU.
 
-MINIX 3 is a UNIX-like operating system created with the goal of being a highly reliable and self-healing microkernel OS.
-<br>
-MINIX 3 includes ssh, emacs, vi, perl, python, bash, X11, ftp, pine, clang, and gcc tools.
-<br>
-Updated binary and source packages are available for MINIX 3.
-<br>
-MINIX 3 is available under a BSD license and supports many programming languages and development tools.
+MINIX 3 is a UNIX-like operating system created with the goal of being a highly reliable and self-healing microkernel OS. MINIX 3 includes ssh, emacs, vi, perl, python, bash, X11, ftp, pine, clang, and gcc tools. Updated binary and source packages are available for MINIX 3. MINIX 3 is available under a BSD license and supports many programming languages and development tools.
 
-**Installation Steps:**
+**Installation steps:**
 * Download and unzip [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) of this git repo.
 * Run GetMINIX.bat to download MINIX iso.
 * Run InstallMINIX.bat install MINIX to built-in virtual hard-drive
@@ -16,9 +10,15 @@ MINIX 3 is available under a BSD license and supports many programming languages
     * Login as 'root', no password required
     * Type setup at the shell
     * Follow the prompts and you can usually accept all defaults unless you have made specific customizations
-    * Back at shell, type shutdown -h now, and close window (may have to do so manually)
+    * Back at shell, type shutdown -h now, and close window when indicates it is safe to do so.
 * Run WinMINIX.bat to boot freshly installed MINIX.
+    * Use WinMINIX-X11.bat with settings optimized for X11, but creates an additional window.
 * Consult [post installation documentation](https://wiki.minix3.org/doku.php?id=usersguide:postinstallation) for MINIX, including installing binary packages using [pkgin](https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages) or from source using NetBSD's [pkgsrc](https://wiki.minix3.org/doku.php?id=usersguide:installingsourcepackages) repo.
+
+**Hacking this project:**
+* Optimize QEMU for your particular hardware by tweaking command-line settings in WinMINIX.bat.
+* Fork this project and replace MINIX with another obscure operating system.
+* Add a reliable way to perform SHA1 verification on downloads.
 
 **Made from:**
 * [MINIX 3.4.0-rc6](http://download.minix3.org/iso/snapshot/), which has parts from FreeBSD and NetBSD.
