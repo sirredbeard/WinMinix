@@ -9,19 +9,21 @@ WinMinix makes setting up, experimenting, and developing on MINIX from Windows e
 **Downloads**
 
 **[Nightly](https://github.com/sirredbeard/WinMinix/archive/master.zip)** (Recommended) <br>
-Archived Releases: [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.1)
+Archived Releases: [0.2](https://github.com/sirredbeard/WinMinix/releases/tag/0.2), [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.1)
 
 **Installation steps:**
 * Download and unzip a [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) archive of this git repo.
-* Run GetMINIX.bat to download MINIX iso.
-* Run InstallMINIX.bat install MINIX to built-in virtual hard-drive
+* Run GetMINIX.bat to download MINIX cd image.
+* Run InstallMINIX.bat to install MINIX onto built-in virtual hard-drive
     * Select option 1 in the boot menu
-    * Login as 'root', no password required
+    * Login as 'root', no password is required
     * Type setup at the shell
-    * Follow the prompts and you can usually accept all defaults unless you have made specific customizations
-    * Back at shell, type shutdown -h now, and close window when indicates it is safe to do so.
-* Run WinMINIX.bat to boot freshly installed MINIX.
-* Consult [post installation documentation](https://wiki.minix3.org/doku.php?id=usersguide:postinstallation) for MINIX, including installing binary packages using [pkgin](https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages) or from source using NetBSD's [pkgsrc](https://wiki.minix3.org/doku.php?id=usersguide:installingsourcepackages) repo.
+    * Follow the prompts, you can usually accept all defaults unless you have made specific customizations
+    * Back at shell, type shutdown -h now, and close window when it indicates it is safe to do so.
+* Run WinMINIX.bat to boot freshly installed MINIX
+
+**Post-installation:**
+* Consult [post installation documentation](https://wiki.minix3.org/doku.php?id=usersguide:postinstallation) for MINIX, including installing binary packages using [pkgin](https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages) or from source using NetBSD's [pkgsrc](https://wiki.minix3.org/doku.php?id=usersguide:installingsourcepackages) repo..
 
 **Hacking this project:**
 * See the "Examples" folder:
