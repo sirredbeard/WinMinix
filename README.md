@@ -1,13 +1,14 @@
 # Quick and dirty MINIX shell for Windows.
 
 Steps:
-* Download and unzip [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip)
+* Download and unzip [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) of this git repo.
 * Run GetMINIX.bat
 * Run InstallMINIX.bat
 * Install MINIX to built-in hard-drive
     * Login as 'root', no password
     * Type setup
     * Follow the prompts, accept all defaults
+    * At end, type shutdown -h now, and exit
 * Run WinMINIX.bat
 
 Packages:
