@@ -9,10 +9,10 @@ WinMinix makes setting up, experimenting, and developing on MINIX from Windows e
 **Downloads**
 
 **[Nightly](https://github.com/sirredbeard/WinMinix/archive/master.zip)** (Recommended) <br>
-Archived Releases: [0.3](https://github.com/sirredbeard/WinMinix/releases/tag/0.3), [0.2](https://github.com/sirredbeard/WinMinix/releases/tag/0.2), [0.1](https://github.com/sirredbeard/WinMinix/releases/tag/0.1)
+[Archived Releases](https://github.com/sirredbeard/WinMinix/releases)
 
 **Installation steps:**
-* Download and unzip a [zip](https://github.com/sirredbeard/WinMinix/archive/master.zip) archive of this git repo.
+* Download and unzip a [.ZIP](https://github.com/sirredbeard/WinMinix/archive/master.zip) archive of this repo.
 * Run GetMINIX.bat to download MINIX cd image.
 * Run InstallMINIX.bat to install MINIX onto built-in virtual hard-drive
     * Select option 1 in the boot menu
@@ -30,8 +30,13 @@ Archived Releases: [0.3](https://github.com/sirredbeard/WinMinix/releases/tag/0.
    * Use WinMinix-X11.bat with settings optimized for X11, but note it creates an additional window.
    * Use WinMinix-sshd.bat to launch a headless MINIX instance ssh pass-through via localhost:2200. Note: sshd must be properly 
 configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku.php?id=usersguide:settingupssh).
+   * Remember to copy your edited .bat file out up Examples up to the base WinMinix folder.
 * Optimize QEMU for your particular hardware by tweaking command-line settings in WinMINIX.bat.
 * Fork this project and replace MINIX with another obscure operating system.
+    1. Fork this project.
+    2. Replace link to MINIX ISO in GetMINIX.bat with your own ISO link. Unarchive with 7za if needed.
+    3. Edit filename of ISO in InstallMINIX.bat and WinMINIX.bat to your newly downlaoded ISO.
+    4. Rename .bat files, e.g. WinHAIKU.bat, as preferred.
 * Add a reliable way to perform SHA1 verification on downloads.
 
 **Made from:**

@@ -1,1 +1,1 @@
-Dependencies\qemu\qemu-system-x86_64w.exe -hda mydisk.img -cdrom minix_R3.4.0rc6.iso -m 1024M -net user -net nic -boot a -display curses
+Dependencies\qemu\qemu-system-x86_64w.exe -hda mydisk.img -cdrom minix_R3.4.0rc6.iso -m 2048M -net user -net nic -boot a -display curses -name MINIX -cpu Skylake-Client
