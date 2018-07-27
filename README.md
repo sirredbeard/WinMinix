@@ -20,17 +20,17 @@ WinMinix makes setting up, experimenting, and developing on MINIX from Windows e
     * Type setup at the shell
     * Follow the prompts, you can usually accept all defaults unless you have made specific customizations
     * Back at shell, type shutdown -h now, and close window when it indicates it is safe to do so.
-* Run WinMINIX.bat to boot freshly installed MINIX
+* Run WinMINIX.bat to boot freshly installed MINIX.
 
 **Post-installation:**
-* Consult [post installation documentation](https://wiki.minix3.org/doku.php?id=usersguide:postinstallation) for MINIX, including installing binary packages using [pkgin](https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages) or from source using NetBSD's [pkgsrc](https://wiki.minix3.org/doku.php?id=usersguide:installingsourcepackages) repo..
+* Consult [post installation documentation](https://wiki.minix3.org/doku.php?id=usersguide:postinstallation) for MINIX, including installing binary packages using [pkgin](https://wiki.minix3.org/doku.php?id=usersguide:installingbinarypackages) or from source using NetBSD's [pkgsrc](https://wiki.minix3.org/doku.php?id=usersguide:installingsourcepackages) repo.
 
 **Hacking this project:**
 * See the "Examples" folder:
    * Use WinMinix-X11.bat with settings optimized for X11, but note it creates an additional window.
-   * Use WinMinix-sshd.bat to launch a headless MINIX instance ssh pass-through via localhost:2200. Note: sshd must be properly 
-configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku.php?id=usersguide:settingupssh).
-   * Remember to copy your edited .bat file out up Examples up to the base WinMinix folder.
+   * Use WinMinix-sshd.bat to launch a headless MINIX instance ssh pass-through via localhost:2200. sshd MUST be properly 
+configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku.php?id=usersguide:settingupssh) for how to do so.
+   * Remember to copy your edited .bat file out up Examples up to your base WinMinix folder.
 * Optimize QEMU for your particular hardware by tweaking command-line settings in WinMINIX.bat.
 * Fork this project and replace MINIX with another obscure operating system.
     1. Fork this project.
@@ -40,8 +40,8 @@ configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku
 * Add a reliable way to perform SHA1 verification on downloads.
 
 **Made from:**
-* [MINIX 3.4.0-rc6](http://download.minix3.org/iso/snapshot/), which has parts from FreeBSD and NetBSD.
-* [QEMU 3.0.0-rc1](https://qemu.weilnetz.de/w64/)
+* [MINIX 3.4.0-rc6](http://download.minix3.org/iso/snapshot/)
+* [QEMU 3.0.0-rc2](https://qemu.weilnetz.de/w64/)
 * [wget 1.19.4](https://eternallybored.org/misc/wget/)
 * [7-zip 18.05](https://www.7-zip.org/)
 
