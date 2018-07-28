@@ -2,7 +2,9 @@ Example WinMinix configurations.
 
 For advanced users.
 
-Please read any .bat in this file before running it.
+Please read the comments in respective .bat file before running it.
+
+Many of these will not work out of the box.
 
 Remember to copy the .bat file out of Examples to WinMinix base folder.
 
