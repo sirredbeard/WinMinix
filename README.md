@@ -41,7 +41,7 @@ configured on MINIX first. See [sshd documentation](https://wiki.minix3.org/doku
 
 **Made from:**
 * [MINIX 3.4.0-rc6](http://download.minix3.org/iso/snapshot/)
-* [QEMU 3.0.0-rc2](https://qemu.weilnetz.de/w64/)
+* [QEMU 3.0.0](https://qemu.weilnetz.de/w64/) 
 * [wget 1.19.4](https://eternallybored.org/misc/wget/)
 * [7-zip 18.05](https://www.7-zip.org/)
 
